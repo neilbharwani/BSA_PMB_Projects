@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>tiny reacty page</title>
+<style>
+body{font-family:system-ui, -apple-system, segoe ui, roboto, sans-serif; margin:0; padding:2rem; background:#111; color:#eee}
+main{max-width:700px; margin:0 auto}
+input, button{font-size:1rem; padding:.6rem .8rem; border-radius:.5rem; border:1px solid #333; background:#1b1b1b; color:#eee}
+button{cursor:pointer}
+section{margin-top:1rem}
+small{color:#aaa}
+.card{background:#161616; padding:1rem; border:1px solid #262626; border-radius:.75rem; margin-top:1rem}
+</style>
+</head>
+<body>
+<main>
+<h1>say something</h1>
+<p>type a word or a number and press enter or the button.</p>
+<div>
+<input id="box" placeholder="write here">
+<button id="go">react</button>
+</div>
+<section class="card">
+<p id="out">waiting...</p>
+<small id="hint"></small>
+</section>
+</main>
+<script src="./script.js"></script>
+</body>
+</html>
